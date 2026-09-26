@@ -12,5 +12,5 @@ public interface TaskGateway {
     public List<Task> findByTitle(String title);
     public void deleteById(String id);
     public Task updateTask(Task task);
-    
+
 }
